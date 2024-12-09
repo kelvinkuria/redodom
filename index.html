@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.io.png" type="image/x-icon">
+    <title>Zookeeper Project</title>
+</head>
+<body>
+    <header id="menu">
+        <h1>Welcome to the Zookeeper Project</h1>
+    </header>
+    <div class="container">
+        <form action="animal-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter animal name">
+
+            <label for="image_url">Image URL</label>
+            <input type="text" id="image_url" name="image_url" placeholder="Enter Image URL" >
+
+            <label for="description">Description</label>
+            <textarea name="description" id="description" placeholder="Enter description"></textarea>
+            <button type="submit">Adopt Animal</button>
+
+        </form>
+
+        <ul id="animal-list" class="cards">
+<li>
+<img src="https://th.bing.com/th?id=OIP.Gcg64XRXJdR4O7aGiywaOgHaFj&w=288&h=216&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="Bear">
+<div class="content">
+    <h4>Bears</h4>
+    <p>$<span class="donation-count">0</span> Donated</p>
+    <p>You will die if you dont run</p>
+</div>
+<div class="buttons">
+    <button class="donate">Donate $15</button>
+    <button class="set-free">Set free</button>
+</div>
+
+</li>
+
+
+
+
+        </ul>
+    </div>
+</body>
+</html>
